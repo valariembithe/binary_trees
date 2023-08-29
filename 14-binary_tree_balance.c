@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-
+#include <stdio.h>
 /**
  * binary_tree_balance - measures the balancce factor
  * @tree: pointer to the root node of the tree to measure the balance factor
