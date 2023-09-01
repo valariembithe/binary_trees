@@ -63,6 +63,8 @@ int greater_than(const binary_tree_t *tree, int val);
 bst_t *array_to_bst(int *array, size_t size);
 bst_t *bst_search(const bst_t *tree, int value);
 bst_t *bst_remove(bst_t *root, int value);
+size_t check_tree_height(const binary_tree_t *tree);
+int check_tree_is_bst(const binary_tree_t *tree, const binary_tree_t *prev);
 int binary_tree_is_avl(const binary_tree_t *tree);
 
 #endif
